@@ -1,4 +1,6 @@
 import pandas as pd
+import subprocess
+subprocess.run(["pip", "install", "mysql-connector-python"])
 import mysql.connector
 import streamlit as st
 import plotly.express as px
