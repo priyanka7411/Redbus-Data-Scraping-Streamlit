@@ -7,18 +7,19 @@ import os
 # Function to load all bus routes data by concatenating state-wise CSVs
 def load_all_bus_data():
     file_path_dict = {
-        "Kerala": "/Users/priyankamalavade/Desktop/redbus_scraping/scraped bus details/df.kerala.csv",
-        "Andhra Pradesh": "/Users/priyankamalavade/Desktop/redbus_scraping/scraped bus details/df.andhra.csv",
-        "Telangana": "/Users/priyankamalavade/Desktop/redbus_scraping/scraped bus details/df.telangana.csv",
-        "Goa": "/Users/priyankamalavade/Desktop/redbus_scraping/scraped bus details/df.GOA.csv",
-        "Rajasthan": "/Users/priyankamalavade/Desktop/redbus_scraping/scraped bus details/df.rajastan.csv",
-        "Bihar": "/Users/priyankamalavade/Desktop/redbus_scraping/scraped bus details/df.bihar.csv",
-        "South Bengal": "/Users/priyankamalavade/Desktop/redbus_scraping/scraped bus details/df.south_bengal.csv",
-        "Himachal Pradesh": "/Users/priyankamalavade/Desktop/redbus_scraping/scraped bus details/df.himachalpradesh.csv",
-        "Assam": "/Users/priyankamalavade/Desktop/redbus_scraping/scraped bus details/df.assam.csv",
-        "Uttar Pradesh": "/Users/priyankamalavade/Desktop/redbus_scraping/scraped bus details/df.up.csv",
-        "West Bengal": "/Users/priyankamalavade/Desktop/redbus_scraping/scraped bus details/df.wb.csv",
-        "Chandigarh": "/Users/priyankamalavade/Desktop/redbus_scraping/scraped bus details/df.chandigarh.csv"
+        "Kerala": "./scraped bus details/df.kerala.csv",
+        "Andhra Pradesh": "./scraped bus details/df.andhra.csv",
+        "Telangana": "./scraped bus details/df.telangana.csv",
+        "Goa": "./scraped bus details/df.GOA.csv",
+        "Rajasthan": "./scraped bus details/df.rajastan.csv",
+        "Bihar": "./scraped bus details/df.bihar.csv",
+        "South Bengal": "./scraped bus details/df.south_bengal.csv",
+        "Himachal Pradesh": "./scraped bus details/df.himachalpradesh.csv",
+        "Assam": "./scraped bus details/df.assam.csv",
+        "Uttar Pradesh": "./scraped bus details/df.up.csv",
+        "West Bengal": "./scraped bus details/df.wb.csv",
+        "Chandigarh": "./scraped bus details/df.chandigarh.csv"
+        
     }
     
     # Load and concatenate all datasets into one DataFrame
