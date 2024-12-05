@@ -1,5 +1,5 @@
 import pandas as pd
-#import mysql.connector
+import mysql.connector
 import sys
 import streamlit as st
 st.write(sys.executable)
