@@ -4,5 +4,5 @@ selenium==4.8.0
 mysql-connector==2.2.9
 
 pandas==2.1.1
-plotly==5.12.0
+ plotly-5.24.1
 webdriver-manager==4.8.0
