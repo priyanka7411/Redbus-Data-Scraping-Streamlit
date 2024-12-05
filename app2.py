@@ -1,7 +1,7 @@
 import pandas as pd
 #import mysql.connector
 import streamlit as st
-import plotly.express as px
+#import plotly.express as px
 import os
 
 # Function to load all bus routes data by concatenating state-wise CSVs
