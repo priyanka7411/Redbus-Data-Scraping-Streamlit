@@ -1,23 +1,7 @@
 
-# Project Dependencies for Redbus Data Scraping and Streamlit Application
-
-# Streamlit: Used for creating the interactive web application
 streamlit==1.22.0
-
-# Selenium: Used for automating web scraping from the Redbus website
 selenium==4.8.0
-
-# MySQL Connector: Enables connection between Python and MySQL database
 mysql-connector-python==8.1.0
-
-# Pandas: Used for data manipulation and analysis
 pandas==2.1.1
-
-# Plotly: Used for creating interactive visualizations in the Streamlit app
 plotly==5.12.0
-
-
-# WebDriver Manager: Automatically downloads and sets up the correct WebDriver version for our browser.
 webdriver-manager==4.8.0
-
-
