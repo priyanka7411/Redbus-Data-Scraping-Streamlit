@@ -129,7 +129,7 @@ if page == "Home":
     st.markdown("<h4 style='text-align: center;'>Overview of Bus Data</h4>", unsafe_allow_html=True)
 
 #visualization
-    folder_path = '/Users/priyankamalavade/Desktop/redbus_scraping/scraped_all_required_bus_details'
+    folder_path = './scraped_all_required_bus_details'
 
 # Load all CSV files from the folder
     dataframes = []
@@ -166,7 +166,7 @@ if page == "Home":
 # --- Filtering Page ---
 if page == "Filter Buses":
     st.sidebar.markdown("## 🛠️ **Bus Filters**")
-    st.sidebar.image("/Users/priyankamalavade/Desktop/redbus_scraping/images/rb.png", width=100)
+    st.sidebar.image("./images/rb.png", width=100)
 
     # Select state
     state = st.sidebar.selectbox("Select State", [
