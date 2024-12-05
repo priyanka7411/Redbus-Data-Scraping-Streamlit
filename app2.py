@@ -1,5 +1,8 @@
 import pandas as pd
 #import mysql.connector
+import sys
+import streamlit as st
+st.write(sys.executable)
 import streamlit as st
 import plotly.express as px
 import os
